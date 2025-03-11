@@ -2,13 +2,13 @@
 share: "true"
 ---
 >[!Multi-Column|center]
->>[!lib1|center] [[Surgery List|Surgery List]]
+>>[!lib1|center] [[./Surgery List|Surgery List]]
 >
->>[!Item|center] [[Instruments|Instruments]]
+>>[!Item|center] [[./Instruments|Instruments]]
 >
->>[!Supply|center] [[Supplies|Supplies]]
+>>[!Supply|center] [[./Supplies|Supplies]]
 >
->>[!Equip|center] [[Equipment|Equipment]]
+>>[!Equip|center] [[./Equipment|Equipment]]
 
 
 ---
