@@ -1,0 +1,211 @@
+---
+Alias:
+  - 
+Photo:
+  - 
+Type:
+  - Set-up
+Specialty:
+  - Max-Fax
+Category:
+  - 
+Restock:
+  - 
+Reference:
+  - 
+Location:
+  - 
+Compatibility:
+  - 
+Status:
+  - 
+cssclasses:
+  - 
+share: "true"
+---
+
+
+>[!MxFx] `=this.file.name`
+>>[!multi-column]
+>>>[!Blank]
+>>>![[MxFx - Basic Set-up.png]]
+>>
+>>>[!Information] Theatre Set-Up
+>>>>[!multi-column]
+>>>>>[!Equip] Equipment
+>>>>>- Diathermy Machine
+>>>>>- Flowtron Machine
+>>>>
+>>>>>[!Pos] Positioning
+>>>>>- [[Head Ring - Soft]]
+>>>>>- Arm Ski > *One or two arms*
+>>>>>- TEDs
+>>>>>- Squeezes
+>>>>>- Thigh belt
+>>>>>- Positioning Gels
+>>>
+>>><br>
+>>>
+>>>>[!Tip] Notes
+>>>>>[!multi-column]
+>>>>>>[!Setting] **Diathermy Setting**
+>>>>>>- Coagulate: *20 Spray* 
+>>>>>>- Cutting: *20 Blend*
+>>>>>
+>>>>>>[!Setting] **Bipolar Setting**
+>>>>>>-  Manual Pedal: *20*
+>>>>
+>>>>- Arm ski either one or both arms, to be discussed with anaesthetic team.
+>>>>- Useful to have [[Max-Fax Trolley]] in the room.
+
+
+---
+
+> [!prep]
+>>[!Multi-Column]
+>>>[!MxFx] Max-Fax Trolley
+>>>>[!Multi-Column]
+>>>>>[!Item] Instruments
+| #   | Instruments        | Loc.                           | Note                                                                |
+| --- | ------------------ | ------------------------------ | ------------------------------------------------------------------- |
+| 1   | [[Dental Syringe]] | `=[[Dental Syringe]].location` |                                                                     |
+| 1   | [[Mouth Props]]    | `=[[Mouth Props]].location`    | Not required to count if used during pre-incision local anesthesia. |
+>>>>
+>>>>>[!Supply] Supplies
+| #   | Supplies                 | Loc.                                     | Note |
+| --- | ------------------------ | ---------------------------------------- | ---- |
+| 1   | [[Kidney Dish - Unsterile]]  | `=[[Kidney Dish - Unsterile]].location`  |      |
+| 4   | [[Dental Syringe Cartridge]] | `=[[Dental Syringe Cartridge]].location` |      |
+| 2   | [[Dental Syringe Needle]]    | `=[[Dental Syringe Needle]].location`    |      |
+| 1   | [[Wooden Spatula]]           | `=[[Wooden Spatula]].location`           |      |
+>>>>>
+>
+
+---
+
+>[!Open]
+>>[!Multi-Column]
+>>>[!Blank]
+>>>>[!Item] Instruments
+>>>>
+|  #  | Instruments                            | Location                                            | Note                                    |
+|:---:|:--------------------------------------- |:--------------------------------------------------- |:--------------------------------------- |
+|  1  | [[Basic Oral Tray]]                     | `=[[Basic Oral Tray]].location`                     |                                         |
+|  1  | [[Magnetic Mat]]                        | `=[[Magnetic Mat]].location`                        | ==**Don't use if pt. got pacemaker.**== |
+>>>>
+>>>
+>>><br>
+>>>
+>>>>[!Supply] Liquids and Solutions    
+>>>>
+| #   | Liquids and Solutions  | Location                           | Note            |
+|:---: |:---------------------- |:---------------------------------- |:---------------- |
+| 1   | [[Betadine 5%]]        | In theatre        | As Prep Solution |
+| 1   | [[Sterile Saline 1L]] | Either in warmer or stock |                  |
+>>>>
+>>>
+>>><br>
+>>>
+>>>>[!sutures] Sutures 
+>>>>
+|  #  | Sutures                             | Info                   | Note                                             |
+|:---:|:----------------------------------- |:---------------------- |:------------------------------------------------ |
+|  1  | Silk 2-0 PS<br>Ref: **1588H**       | Black, Reverse Cutting |                                                  |
+>>>>
+>>
+>>>[!Supply] Supplies
+>>>
+|  #  | Supplies                   | Location                               | Note                                                                         |
+|:---:|:-------------------------- |:-------------------------------------- |:---------------------------------------------------------------------------- |
+|  1  | [[General Minor ProPak]]   | `=[[General Minor ProPak]].location`   |                                                                              |
+|  1  | [[Head Turban Drape Set]]  | `=[[Head Turban Drape Set]].location`  | Comes with table cover that can be used as extra table for plates and screw. |
+|  1  | [[Jug]]                    | `=[[Jug]].location`                    |                                                                              |
+|  1  | [[Gauze Swab - Check 5's]] | `=[[Gauze Swab - Check 5's]].location` |                                                                              |
+|  1  | [[Peanut Swabs]]           | `=[[Gauze Swab - Check 5's]].location` |                                                                              |
+|  1  | [[Bipolar Forceps - Adson]]                            | `=[[Bipolar Forceps - Adson]].location`                                   |                                                                              |
+|  1  | [[Monopolar Diathermy - PenEvac]]                      | `=[[Monopolar Diathermy - PenEvac]].location`                             |                                                                              |
+|  1  | [[Diathermy Tip - Needle Point Colorado]]              | `=[[Diathermy Tip - Needle Point Colorado]].location`                     |                                                                              |
+|  1  | [[Suction Tubing - Soft]]                              | `=[[Suction Tubing - Soft]].location`                                     |                                                                              |
+|  1  | [[Suction Handle - Yankauer]]                          | `=[[Suction Handle - Yankauer]].location`                                 | To be given to anesthesia on extubation.                                     |
+|  1  | [[Marking Pen]]                                        | `=[[Marking Pen]].location`                                               |                                                                              |
+|  3  | [[Scalpel Blade no. 15]]                               | `=[[Scalpel Blade no. 15]].location`                                      |                                                                              |
+|  2  | [[Syringe 30mL]]                                       | `=[[Syringe 30mL]].location`                                              |                                                                              |
+|  1  | [[Light Handles - New]] / [[Light Handles - Old\|Old]] | `=[[Light Handles - New]].location` / `=[[Light Handles - Old]].location` | Use old if MOT-3, or MOT-9                                                   |
+>>>
+>>
+>
+>>[!MxFx] Max-Fax Trolley
+>>>[!Multi-Column]
+>>>>[!Item] MxFx - Instruments
+>>>>
+|  #  | Instruments              | Location                                        | Note                                                                                                               |
+|:---:|:----------------------------------- |:----------------------------------------------- |:------------------------------------------------------------------------------------------------------------------ |
+|  1  | [[Mouth Props]]                     | `=[[Mouth Props]].location`                     | **==Please include in surgical count.==** <br> Please keep in container with saline.                               |
+>>>>
+>>>
+>>>>[!Supply] MxFx - Supplies
+>>>>
+|  #  | Supplies              | Location                                        | Note                                                                                                               |
+|:---:|:----------------------------------- |:----------------------------------------------- |:------------------------------------------------------------------------------------------------------------------ |
+|  2  | [[Needle 18g – Blunt Irrigating]]   | `=[[Needle 18g – Blunt Irrigating]].location`   | Follow instruction as presented in the supply page (bend needle 45°).                                              |
+>
+
+---
+
+>[!wait] Stand-by
+>>[!Multi-Column]
+>>>[!Item] Instruments
+>>>
+|  #  | Instruments                             | Location                                            | Note                                    |
+|:---:|:--------------------------------------- |:--------------------------------------------------- |:--------------------------------------- |
+|  1  | [[Gillies Skin Hooks]]                  | `=[[Gillies Skin Hooks]].location`                  |                                         |
+|  1  | [[McIndoe Double Skin Hooks]]           | `=[[McIndoe Double Skin Hooks]].location`           |                                         |
+|  2  | [[Phrenic Nerve Retractor]]             | `=[[Phrenic Nerve Retractor]].location`                                                     |                                         |
+|  2  | [[Langenbeck Retractor]]                | `=[[Langenbeck Retractor]].location`                |                                         |
+|  1  | [[Mastoid Retractor]]                   | `=[[Mastoid Retractor]].location`                    |                                         |
+|  1  | [[Crile Artery Forceps]]                | `=[[Crile Artery Forceps]].location`                 |                                         |
+>>>
+>>
+>>>[!Supply] Supplies
+>>>
+|  #  | Supplies                       | Location          | Note          |
+|:---:| -------------------------------- | ----------------- | ------------- |
+|  1  | Opsite Post-Op Dressing 9.5cm    | [[CE#cE-4\|CE-4]] | 9.5cm x 8.5cm |
+|  1  | Steristrip - 6mm Skin Tone (Red) | [[CE#cE-5\|CE-5]] | 6mm x 75mm    |
+|  1  | Steristrip - 12mm (Blue)         | [[CE#cE-5\|CE-5]] | 12mm x 100mm  |
+|  1  | Tegaderm - Small                 | [[CE#cE-5\|CE-5]] |               |
+|  2  | [[Drain System - Mini-Vac]]      | `=[[Drain System - Mini-Vac]].location` |               |
+>>>
+>>
+>
+>>[!sutures]
+>>
+|  #  | Sutures                            | Info                   | Note                                            |
+|:---:|:---------------------------------- |:---------------------- |:----------------------------------------------- |
+|  1  | Ethilon 4-0 PS-2 - Ref: **W1620T** | Blue, Reverse Cutting  | *Unknown Availability*                          |
+|  1  | Ethilon 4-0 PS-2 - Ref: **1667G**  | Black, Reverse Cutting |                                                 |
+|  1  | Silk 2-0 PS - Ref: **1588H**       | Black, Reverse Cutting |                                                 |
+|  1  | Vicryl 3-0 Ties - Ref: **VCP104G** | Violet, 12 Strands     | Formerly: **J104G**                      |
+|  1  | Vicryl 3-0 SH-1 - Ref: **VCP311H** | Violet, Taper Round    | Formerly: **J311**                       |
+|  1  | Vicryl 4-0 PC-1 - Ref: **VCP835G** | Undyed, Cutting        | Formerly: **J835** *Unknown Availability* |
+|  1  | Vicryl 4-0 RB-1 - Ref: **VCP214H** | Undyed, Taper Round    | Formerly: **J214**                        |
+>>
+>
+>>[!MxFx] Max-Fax Trolley
+>>>[!Multi-Column]
+>>>>[!Item] Instruments
+|  #  | Instruments                    | Location                                                   | Note |
+|:---:|:------------------------------------------ |:------------------------------------------------------ |:---- |
+|  1  | [[Cairns Malleable Retractor - MxFx]]                            | `=[[Cairns Malleable Retractor - MxFx]].location`                            |   Comes in set. <br> *The older and more damaged, the better.*   |
+>>>
+>>>>[!Supply] Supplies
+|  #  | Supplies                             | Location                                         | Note |
+|:---:| ------------------------------------ | ------------------------------------------------ | ---- |
+|  1  | [[Betamethasone Topical Cream 0.1%]] | `=[[Betamethasone Topical Cream 0.1%]].location` |      |
+|  1  | [[Chlorsig Eye Ointment]]            | `=[[Chlorsig Eye Ointment]].location`            |      |
+>>>>
+>
+
+---
+
+# End
